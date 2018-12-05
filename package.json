@@ -1,0 +1,23 @@
+{
+  "name": "Yvvone",
+  "version": "1.0.0",
+  "description": "Crawling page info using puppeteer and insert into an existed excel file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuke1991/Yvvone.git"
+  },
+  "keywords": [
+    "daily report"
+  ],
+  "author": "Duke Sun",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^1.6.2",
+    "puppeteer": "^1.8.0"
+  }
+}
